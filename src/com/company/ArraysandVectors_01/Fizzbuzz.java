@@ -3,10 +3,8 @@ package com.company.ArraysandVectors_01;
 import java.util.Vector;
 
 public class Fizzbuzz {
-
     public static Vector<String> fizzbuzz(int n){
-
-        Vector<String> result =new Vector<>();
+        Vector<String> result = new Vector<>();
         for(int i=1;i<=n;i++){
             if((i%15)==0){
                 result.add("FizzBuzz");
@@ -22,11 +20,8 @@ public class Fizzbuzz {
             }
 
         }
-
         return result;
-
     }
-
     public static void main(String[] args) {
 
     }
